@@ -1,20 +1,15 @@
-import React,  { Component } from 'react';
-import Navbar from './components/Navbar';
+import React from 'react';
+import Navbar from './components/front/Navbar';
 import './App.css';
-import Home from './components/pages-front/Home';
+import Home from './pages/front/Home';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Services from './components/pages-front/Services';
-import Products from './components/pages-front/Products';
-import SignUp from './components/pages-front/SignUp';
-import Cards from './components/Cards';
-import HeroSection from './components/HeroSection';
-import Footer from './components/Footer';
-import Api from './components/API';
-
-
-
-
-
+import Services from './pages/front/Services';
+import Products from './pages/front/Products';
+import SignUp from './pages/front/SignUp';
+import Cards from './components/front/Cards';
+import HeroSection from './components/front/HeroSection';
+import Footer from './components/front/Footer';
+//import Api from './components/front/API';
 
 function App() {
   return (

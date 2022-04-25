@@ -1,13 +1,13 @@
 import React from 'react';
-import './Cards.css';
+import '../../assets/front/Cards.css';
 import CardItem from './CardItem';
 
 
 
 export default class Cards extends React.Component {
-  state = {
-    institutions: []
-  };
+  // state = {
+  //   institutions: []
+  // };
 
 
 
@@ -34,7 +34,7 @@ export default class Cards extends React.Component {
       });
 
 
-      let allInstitutions = response.json();
+      let allInstitutions = await response.json();
 
 
       console.log(allInstitutions);
@@ -52,7 +52,7 @@ export default class Cards extends React.Component {
 
 
   render() {
-    const { institutions } = this.state;
+    //const { institutions } = this.state;
 
 
 
